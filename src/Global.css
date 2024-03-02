@@ -3,6 +3,7 @@
     --default-secondary:#ffffff;
     --default-button:#0085FF;
     --default-shadow:#807A7A;
+    --default-stroke:#E4DFDF;
 }
 .App{
     display: flex;
@@ -10,30 +11,4 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-}
-.container{
-    display: flex;
-    width: 385px;
-    height: 510px;
-    border-radius: 12px;
-    background-color: var(--default-secondary);
-}
-.form-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.heading{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.heading > h3{
-    font-size: 20px;
-}
-.send-form{
-    display: flex;
-    flex-direction: column;
 }
